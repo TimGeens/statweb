@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening 5</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <div>
+            <label for="voornaam">Voornaam: <input type="text" name="voornaam" id="voornaam" required></label>
+        </div>
+        <div>
+            <label for="familieNaam">Familienaam: <input type="text" name="familieNaam" id="familieNaam" required></label>
+        </div>
+        <div>
+            <label for="adres">Adres: <input type="text" name="adres" id="adres"></label>
+        </div>
+        <label for="provincie">Provincie:</label>
+        <select name="provincie" id="provincie">
+            <option value="limburg">Limburg</option>
+            <option value="antwerpen">Antwerpen</option>
+            <option value="westVlaanderen">West-Vlaanderen</option>
+            <option value="oostVlaanderen">Oost-Vlaanderen</option>
+            <option value="vlaamsBraband">Vlaams-Braband</option>
+            <option value="waalsBraband">Waals-Braband</option>
+            <option value="bergen">Bergen</option>
+            <option value="luik">Luik</option>
+            <option value="namen">Namen</option>
+            <option value="luxemburg">Luxemburg</option>
+            <option value="henegouwen">Henegouwen</option>
+            <option value="brussel">Brussel</option>
+        </select>
+        <fieldset>
+            <legend>Geslacht</legend>
+            <div>
+                <label for="man">Man <input type="radio" name="geslacht" id="man"></label>
+                <label for="vrouw">Vrouw <input type="radio" name="geslacht" id="vrouw"></label>
+                <label for="ander">Ander <input type="radio" name="geslacht" id="ander"></label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="foto">Foto: <input type="file" name="foto" id="foto" required></label>
+        </div>
+        <div>
+            <label for="akkoord">Ik ga akkoord met de algemene voorwaarden </label>
+            <input type="checkbox" name="akkoord" id="akkoord">
+        </div>
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>
