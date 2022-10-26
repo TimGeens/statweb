@@ -1,0 +1,23 @@
+form{
+    font-weight: bold;
+}
+div{
+    margin-bottom: 20px;
+}
+.deel1{
+    background-color: lightgreen;
+    color: white;
+}
+#border{
+    width: 250px;
+    border-radius: 25px;
+    border-color: lightgreen;
+    margin-bottom: 20px;
+}
+#button{
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 15px 120px;
+    text-align: center;
+}

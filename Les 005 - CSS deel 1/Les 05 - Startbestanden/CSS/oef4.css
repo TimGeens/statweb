@@ -1,0 +1,30 @@
+.groen{
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+.active{
+    background-color: orange;
+}
+.headers{
+    height: 50px;
+}
+.bottom{
+    height: 70px;
+}
+#customers{
+    table-layout: fixed;
+    width: 1000px;
+    background-color: beige;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    padding-left: 10px; 
+    border: 1px solid lightgray;
+}
+td{
+    padding-left: 10px;
+    border: 1px solid lightgray;
+}
+

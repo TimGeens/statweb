@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+}
+
+ol{
+    
+    background-color: pink;
+}
+
+#blueBorder{
+    padding: 3px ;
+    background-color: lightblue;
+    border: 20px solid slateblue;
+}
+
+#salmonBorder{
+    padding: 3px ;
+    background-color: pink;
+    border: 20px solid salmon;
+}
