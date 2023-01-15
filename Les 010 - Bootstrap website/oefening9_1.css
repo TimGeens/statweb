@@ -1,0 +1,31 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    background-color: aquamarine;
+}
+.flex-25{
+    flex: 25%;
+}
+.flex-33{
+    flex: 33.33%;
+}
+.flex-50{
+    flex: 50%;
+}
+.flex-66{
+    flex: 66.66%;
+}
+.flex-item{
+    padding: 2px;
+    border: 10px solid white;
+}
+
+@media screen  and (max-width: 700px){
+    .flex-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("/Les\ 07\ -\ Startbestanden/kompas.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-color: black;
+    
+}
+.noord{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+.oost{
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+.zuid{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.west{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
